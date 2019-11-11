@@ -1,0 +1,7 @@
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\bin\Debug\netstandard2.0\Tshirt.deps.json
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\bin\Debug\netstandard2.0\Tshirt.dll
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\Tshirt.csprojAssemblyReference.cache
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\Tshirt.AssemblyInfoInputs.cache
+C:\Xamarin\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\Tshirt.AssemblyInfo.cs
