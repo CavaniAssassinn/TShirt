@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-
 namespace Tshirt
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
@@ -17,12 +12,17 @@ namespace Tshirt
         {
             InitializeComponent();
         }
-
-        private async void TshirtOrder_Clicked(object sender, EventArgs e)
+       
+            private async void TshirtOrder_Clicked(object sender, EventArgs e)
         {
-
             await Navigation.PushAsync(new TshirtPage());
-            
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TshirtPage());
+        }
+
+        
     }
 }

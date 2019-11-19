@@ -6,7 +6,11 @@
              mc:Ignorable="d"
              x:Class="Tshirt.App">
     <Application.Resources>
-                
 
+        <Color x:Key="NavigationPrimary">#2196F3</Color>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+            <Setter Property="BarTextColor" Value="White" />
+        </Style>
     </Application.Resources>
 </Application>

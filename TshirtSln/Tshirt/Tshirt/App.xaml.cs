@@ -1,6 +1,6 @@
 ﻿using System;
+using System.IO;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Tshirt
 {
@@ -9,10 +9,22 @@ namespace Tshirt
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            DependencyService.Register<Storage>();
+            MainPage = new NavigationPage (new MainPage());
         }
-
+        static DatabaseTshirt database;
+        public static DatabaseTshirt Database
+        {
+            get
+            {
+                if (Database == null)
+                {
+                    database = new DatabaseTshirt(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TodoSQLite.db3"));
+                }
+                return database;
+            }
+        }
+        public int boom { get; set; }
 
         protected override void OnStart()
         {

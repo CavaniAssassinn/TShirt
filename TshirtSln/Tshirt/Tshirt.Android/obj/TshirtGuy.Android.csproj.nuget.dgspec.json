@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj": {}
+    "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj": {}
   },
   "projects": {
-    "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj": {
+    "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj",
+        "projectUniqueName": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj",
         "projectName": "TshirtGuy.Android",
-        "projectPath": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj",
+        "projectPath": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt.Android\\TshirtGuy.Android.csproj",
         "packagesPath": "C:\\Users\\Nathan.Antha\\.nuget\\packages\\",
-        "outputPath": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt.Android\\obj\\",
+        "outputPath": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj": {
-                "projectPath": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj"
+              "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj": {
+                "projectPath": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj"
               }
             }
           }
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj": {
+    "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj",
+        "projectUniqueName": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj",
         "projectName": "TshirtGuy",
-        "projectPath": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj",
+        "projectPath": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt\\TshirtGuy.csproj",
         "packagesPath": "C:\\Users\\Nathan.Antha\\.nuget\\packages\\",
-        "outputPath": "C:\\Xamarin\\TshirtSln\\Tshirt\\Tshirt\\obj\\",
+        "outputPath": "C:\\Xamarin\\TShirt\\TshirtSln\\Tshirt\\Tshirt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -97,6 +97,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

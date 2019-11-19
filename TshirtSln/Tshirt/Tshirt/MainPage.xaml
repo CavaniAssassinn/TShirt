@@ -5,19 +5,35 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Tshirt.MainPage"
-             BackgroundImageSource="TshirtThingy.jpg">
+             BackgroundImageSource="bg.jpg"
+             NavigationPage.TitleIconImageSource="bobo.png">
+
 
     <StackLayout>
         <!-- Place new controls here -->
         <Label HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
-        <Button x:Name="TshirtOrder" 
-                BackgroundColor="Black"  
-                Text="View Products"
-                TextColor="WhiteSmoke" 
-                CornerRadius="200"
-                Font="15"
-                Clicked="TshirtOrder_Clicked"/>
+        
+        <ScrollView>
+        <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly"
+                    Padding="0">
+
+
+
+                <Button ImageSource="Black.jpg"  Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
+                <Button ImageSource="bom" Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
+                <Button ImageSource="shirt" Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
+                <Button ImageSource="hood" Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
+
+            <Label Text="Select Product To Purchase" />
+        </FlexLayout>
+        </ScrollView>
+
     </StackLayout>
+    
+    
+    
 
 </ContentPage>

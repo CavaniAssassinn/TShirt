@@ -4,22 +4,28 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Tshirt.TshirtPage">
+             x:Class="Tshirt.TshirtPage"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Add" Clicked="Save_Clicked" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
-        <StackLayout Margin="20,35,20,20">
-            <ListView ItemTapped="ListView_ItemTapped">
-                <ListView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Polo</x:String>
-                        <x:String>Capuchin Monkey</x:String>
-                        <x:String>Blue Monkey</x:String>
-                        <x:String>Squirrel Monkey</x:String>
-                        <x:String>Golden Lion Tamarin</x:String>
-                        <x:String>Howler Monkey</x:String>
-                        <x:String>Japanese Macaque</x:String>
-                    </x:Array>
-                </ListView.ItemsSource>
-            </ListView>
+        <ScrollView>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Name" />
+            <Entry Text="{Binding Name}"   />
+            <Label Text="Gender"/>
+            <Editor Text="{Binding Gender}"/>
+            <Label Text="Date"/>
+            <Entry Text="{Binding DateTime}"/>
+            <Label Text="Color"/>
+            <Editor Text="{Binding Color}"/>
+            <Button Text="View Cart" Clicked="Button_Clicked"  BackgroundColor="Blue" TextColor="Black" CornerRadius="30"/>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
+
+
 </ContentPage>

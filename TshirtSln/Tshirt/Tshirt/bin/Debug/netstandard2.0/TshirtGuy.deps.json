@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "TshirtGuy/1.0.0": {
         "dependencies": {
+          "EntityFramework": "6.3.0",
           "NETStandard.Library": "2.0.3",
           "Xam.Plugins.TextToSpeech": "4.0.0.7",
           "Xamarin.Essentials": "1.2.0",
@@ -19,6 +20,7 @@
           "TshirtGuy.dll": {}
         }
       },
+      "EntityFramework/6.3.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -114,6 +116,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EntityFramework/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mEvhoXscTyLFMcnbLzKlbWdx6N8fCY2IMe4drjUTMFqOqI4KThnTPXr1m50oXDJAn5PvCy2e90IcwN/OxkJUjg==",
+      "path": "entityframework/6.3.0",
+      "hashPath": "entityframework.6.3.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

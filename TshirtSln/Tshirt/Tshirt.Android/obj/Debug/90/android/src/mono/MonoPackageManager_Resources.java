@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Tshirt.Android.dll" comes first in this list. */
 		"Tshirt.Android.dll",
+		"EntityFramework.dll",
+		"EntityFramework.SqlServer.dll",
 		"FormsViewGroup.dll",
 		"Plugin.TextToSpeech.dll",
 		"SQLite-net.dll",
@@ -11,6 +13,11 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"System.CodeDom.dll",
+		"System.Configuration.ConfigurationManager.dll",
+		"System.Security.AccessControl.dll",
+		"System.Security.Permissions.dll",
+		"System.Security.Principal.Windows.dll",
 		"TshirtGuy.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

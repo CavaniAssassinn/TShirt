@@ -22,7 +22,7 @@ namespace Tshirt
 
         public Task<List<TshirtItem>> GetItemsNotDoneAsync()
         {
-            return database.QueryAsync<TshirtItem>("SELECT * FROM [TodoItem] WHERE [Done] = 0");
+            return database.QueryAsync<TshirtItem>("SELECT * FROM [TshirtItem] WHERE [Done] = 0");
         }
 
         public Task<TshirtItem> GetItemAsync(int id)
