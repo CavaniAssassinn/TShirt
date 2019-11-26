@@ -19,8 +19,11 @@ namespace TshirtGuy
         }
         protected override async void OnAppearing()
         {
-            base.OnAppearing();
+            /*var shirt = BindingContext as TshirtItem;
+            var tshirtDb = App.Database;
 
+            await tshirtDb.SaveItemAsync(shirt);
+            */ base.OnAppearing();
             var shirtss = App.Database;
             tshirtItems = await shirtss.GetTshirtItemAsync();
             BindingContext = this;

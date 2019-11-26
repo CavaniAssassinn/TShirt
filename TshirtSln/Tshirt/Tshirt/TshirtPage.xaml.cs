@@ -7,7 +7,6 @@ namespace Tshirt
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TshirtPage : ContentPage
     {
-//////////public TshirtItem shirt { get; set; }
         public TshirtPage()
         {
             InitializeComponent();
@@ -15,16 +14,7 @@ namespace Tshirt
             var shirt = new TshirtItem();
             BindingContext = shirt;
         }
-
-
-
-        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
-         {
-             var tGen = new TshirtItem();
-             string boom = tGen.Adrress; 
-
-         }
-
+       
         private async void Cancel_Clicked(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
@@ -32,12 +22,12 @@ namespace Tshirt
 
         private async void Save_Clicked(object sender, System.EventArgs e)
         {
-            var shirt = BindingContext as TshirtItem;
-            var tshirtDb = App.Database;
+            var shirt = new TshirtItem();
 
-            await tshirtDb.SaveItemAsync(shirt);
-            await Navigation.PushAsync(new TshirtPage());
-
+            await Navigation.PushAsync(new OrderList());
+            var shirtDb = App.Database;
+            await shirtDb.SaveItemAsync(shirt);
+            await Navigation.PushAsync(new OrderList());
         }
 
         private async void Button_Clicked(object sender, System.EventArgs e)

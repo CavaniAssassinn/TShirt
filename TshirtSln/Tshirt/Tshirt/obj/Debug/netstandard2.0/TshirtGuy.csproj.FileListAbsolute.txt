@@ -23,6 +23,6 @@ C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\bin\Debug\netstandard2.0\TshirtGuy.dep
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\bin\Debug\netstandard2.0\TshirtGuy.dll
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\bin\Debug\netstandard2.0\ref\TshirtGuy.dll
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\bin\Debug\netstandard2.0\TshirtGuy.pdb
-C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\TshirtGuy.csprojAssemblyReference.cache
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\OrderList.xaml.g.cs
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt\obj\Debug\netstandard2.0\TshirtGuy.csprojAssemblyReference.cache

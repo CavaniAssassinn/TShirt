@@ -6,18 +6,12 @@
              mc:Ignorable="d"
              x:Class="TshirtGuy.OrderList">
     <ContentPage.Content>
-        <StackLayout>
-            <Label 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="Name" />
-            <Entry Text="{Binding Name}"   />
-            <Label Text="Gender"/>
-            <Editor Text="{Binding Gender}"/>
-            <Label Text="Date"/>
-            <Entry Text="{Binding DateTime}"/>
-            <Label Text="Color"/>
-            <Editor Text="{Binding Color}"/>
+       
+        <StackLayout>       
+        
+            <Label Text="{Binding Name}"/>
+        
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

@@ -9,7 +9,7 @@ namespace Tshirt
         public App()
         {
             InitializeComponent();
-            DependencyService.Register<Storage>();
+          //  DependencyService.Register<Storage>();
             MainPage = new NavigationPage (new MainPage());
         }
         static DatabaseTshirt database;

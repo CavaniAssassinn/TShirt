@@ -17,10 +17,20 @@
             <Label Text="Name" />
             <Entry Text="{Binding Name}"   />
             <Label Text="Gender"/>
-            <Editor Text="{Binding Gender}"/>
-            <Label Text="Date"/>
-            <Entry Text="{Binding DateTime}"/>
-            <Label Text="Color"/>
+                <Picker x:Name="picker"
+                        Title="Select Gender"
+                        TitleColor="Black"
+                        ItemsSource="{Binding TshirtItem}"
+                        ItemDisplayBinding="{Binding Gender}">
+                    <Picker.Items>
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+
+                    </Picker.Items>
+                </Picker>
+                <Label Text="Date"/>
+                <DatePicker />
+                <Label Text="Color"/>
             <Editor Text="{Binding Color}"/>
             <Button Text="View Cart" Clicked="Button_Clicked"  BackgroundColor="Blue" TextColor="Black" CornerRadius="30"/>
         </StackLayout>

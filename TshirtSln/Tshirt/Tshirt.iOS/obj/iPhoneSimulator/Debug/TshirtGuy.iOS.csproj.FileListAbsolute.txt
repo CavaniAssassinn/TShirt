@@ -126,3 +126,11 @@ C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\obj\iPhoneSimulator\Debug\XamlC.st
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\obj\iPhoneSimulator\Debug\TshirtGuy.iOS.csproj.CopyComplete
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\obj\iPhoneSimulator\Debug\Tshirt.iOS.exe
 C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\obj\iPhoneSimulator\Debug\Tshirt.iOS.pdb
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\EntityFramework.SqlServer.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\EntityFramework.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\System.CodeDom.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\System.Configuration.ConfigurationManager.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\System.Data.SqlClient.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\System.Security.AccessControl.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\System.Security.Permissions.dll
+C:\Xamarin\TShirt\TshirtSln\Tshirt\Tshirt.iOS\bin\iPhoneSimulator\Debug\System.Security.Principal.Windows.dll

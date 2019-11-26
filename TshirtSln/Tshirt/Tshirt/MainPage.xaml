@@ -15,19 +15,14 @@
                VerticalOptions="CenterAndExpand" />
         
         <ScrollView>
-        <FlexLayout Direction="Column"
-                AlignItems="Center"
-                JustifyContent="SpaceEvenly"
-                    Padding="0">
-
-
-
+            <FlexLayout Direction="Column"
+                        AlignItems="Center"
+                        JustifyContent="SpaceEvenly"
+                        Padding="0">
                 <Button ImageSource="Black.jpg"  Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
                 <Button ImageSource="bom" Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
                 <Button ImageSource="shirt" Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
                 <Button ImageSource="hood" Clicked="Button_Clicked" BackgroundColor="White" CornerRadius="20"/>
-
-            <Label Text="Select Product To Purchase" />
         </FlexLayout>
         </ScrollView>
 
